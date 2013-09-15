@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="default_value_port_number">6437</string>
+	<string name="default_value_forwarding_url">ws://192.168.0.1:6437/</string>
+</resources>

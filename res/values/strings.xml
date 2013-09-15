@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Leap Motion Proxy for Android</string>
+	<string name="app_short_name">Leap Motion Proxy</string>
+
+	<string name="button_text_start">Start</string>
+	<string name="button_text_stop">Stop</string>
+
+	<string name="optionmenu_preferences_title">Preferences</string>
+
+	<string name="server_status">Server Status</string>
+
+	<string name="preference_port_number_title">Port Number</string>
+	<string name="preference_port_number_summary"></string>
+	<string name="preference_port_number_dialog_title">Leap Motion use 6437 by default.</string>
+
+	<string name="preference_forwarding_url_title">Forwarding URL</string>
+	<string name="preference_forwarding_url_summary"></string>
+	<string name="preference_forwarding_url_dialog_title">ex. ws://192.168.0.1:6437/</string>
+
+	<string name="message_only_when_a_server_is_stoped">Only when a server is stoped.</string>
+	<string name="message_port_number_is_illegal_value">Port number is illegal value.</string>
+	<string name="message_url_is_syntax_error">URL is syntax error.</string>
+	<string name="message_this_scheme_is_not_allowed">This scheme is not allowed.</string>
+
+</resources>

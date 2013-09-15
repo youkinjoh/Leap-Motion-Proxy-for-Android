@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+	<Button
+		android:id="@+id/button_start_stop"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	/>
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	>
+		<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+		>
+			<TableRow>
+				<TextView
+					android:text="@string/server_status"
+					android:padding="5dip"
+					android:gravity="right"
+				/>
+				<TextView
+					android:id="@+id/display_area_server_status"
+					android:padding="5dip"
+				/>
+			</TableRow>
+			<TableRow>
+				<TextView
+					android:text="@string/preference_port_number_title"
+					android:padding="5dip"
+					android:gravity="right"
+				/>
+				<TextView
+					android:id="@+id/display_area_port_number"
+					android:padding="5dip"
+				/>
+			</TableRow>
+			<TableRow>
+				<TextView
+					android:text="@string/preference_forwarding_url_title"
+					android:padding="5dip"
+					android:gravity="right"
+				/>
+				<TextView
+					android:id="@+id/display_area_forwarding_url"
+					android:padding="5dip"
+				/>
+			</TableRow>
+		</TableLayout>
+	</ScrollView>
+</LinearLayout>
