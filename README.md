@@ -37,5 +37,5 @@ HOW TO USE
     | Leap Motion Controller                       |
     +----------------------------------------------+
 
- * Input your PC/Mac/etc. in Preference.
+ * Input your PC/Mac/etc. URL in preference.
  * Tap start button.
